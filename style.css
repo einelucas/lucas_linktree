@@ -16,7 +16,6 @@ body {
   );
   color: #fff;
   min-height: 100vh;
-  min-height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,6 +87,14 @@ body::after {
 .link-card .social.logos {
   position: absolute;
   left: 15px; 
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.link-card .social.logos-2 {
+  position: absolute;
+  left: 10px; 
   display: flex;
   align-items: center;
   opacity: 0.5;
